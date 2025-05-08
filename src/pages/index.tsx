@@ -21,11 +21,15 @@ export default function Home() {
     <main className="min-h-screen">
       <HeroSection />
       <Section 
-        image="/bg-overview.jpeg" 
-        tag="Overview" 
-        title="Elevate adventure in the luxury electric SUV of tomorrow." 
-        description="Lorem ipsum dolor sit amet consectetur adipiscing elit lacinia per quis non mauris, massa fusce tempor condimentum dictumst scelerisque feugiat m"
+        image="/Jason_Duval.jpg"
+        tag=""
+        title="Jason Duval"
+        description={`Jason quiere una vida fácil, pero las cosas no hacen más que complicarse.\n
+          Jason se crio rodeado de estafadores y delincuentes. Tras un tiempo en el ejército intentando dejar atrás su adolescencia problemática, acabó en los cayos haciendo lo que mejor sabe: trabajar para narcotraficantes de la zona. Quizás haya llegado el momento de probar algo nuevo.\n
+          Conocer a Lucía podría ser lo mejor o lo peor que le haya pasado. Jason tiene claro cómo le gustaría que acabara la historia, pero ahora mismo es difícil saberlo.`}
+        alignRight={true}
       />
+
       <Section 
         image="/bg-interior.jpeg" 
         tag="Interior" 
