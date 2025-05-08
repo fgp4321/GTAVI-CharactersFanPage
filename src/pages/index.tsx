@@ -31,10 +31,13 @@ export default function Home() {
       />
 
       <Section 
-        image="/bg-interior.jpeg" 
-        tag="Interior" 
-        title="Interior space. Superior taste" 
-        description="Lorem ipsum dolor sit amet consectetur adipiscing elit lacinia per quis non mauris, massa fusce tempor condimentum dictumst scelerisque feugiat m"
+        image="/Lucia_Caminos.jpg" 
+        tag="" 
+        title="Lucia Caminos" 
+        description={`El padre de Lucia le enseñó a pelear en cuanto aprendió a caminar.\n
+        La vida no ha dejado de golpearla desde entonces. Luchar por su familia la llevó a la penitenciaría de Leonida, de la que solo la suerte la sacó. Lucia ha aprendido la lección: de ahora en adelante, solo decisiones inteligentes.\n
+        Lucia desea una buena vida más que nada en el mundo, aquella con la que su madre soñaba desde sus días en Liberty City. Pero esta vez no se conformará con fantasías ingenuas, Lucia está ahora preparada para tomar las riendas de su vida.\n
+        Una vida con Jason podría ser su oportunidad para salir adelante.`}
       />
       <Section 
         image="/bg-charging.jpeg" 
