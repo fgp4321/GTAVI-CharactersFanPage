@@ -58,10 +58,13 @@ export default function Home() {
         alignRight={true}
       />
       <Section 
-        image="/bg-safety.jpeg" 
-        tag="Safety" 
-        title="Designed for peace of mind." 
-        description="Lorem ipsum dolor sit amet consectetur adipiscing elit lacinia per quis non mauris, massa fusce tempor condimentum dictumst scelerisque feugiat m"
+        image="/DreQuan_Priest_02.jpg" 
+        tag="" 
+        title="DreQuan Priest" 
+        description={`Only Raw... Records\n
+        Dre'Quan siempre fue más buscavidas que gánster. Incluso cuando vendía droga en la calle para llegar a fin de mes, su meta era meterse en el mundo de la música.\n
+        Ahora que ha fichado a Real Dimez, los días en que Dre'Quan contrataba artistas para el club de striptease de Boobie podrían estar contados, ya que ha puesto la mira en la escena de Vice City.\n`}
+        alignCenterLeft
       />
     </main>
   );

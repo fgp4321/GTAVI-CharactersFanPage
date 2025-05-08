@@ -8,7 +8,8 @@ const Section: React.FC<{
     title: string;
     description: string;
     alignRight?: boolean;
-}> = ({ image, tag, title, description, alignRight = false }) => {
+    alignCenterLeft?: boolean;
+}> = ({ image, tag, title, description, alignRight = false, alignCenterLeft = false }) => {
     const sectionRef = useRef(null);
     const { scrollYProgress } = useScroll({
         target: sectionRef,
@@ -23,7 +24,15 @@ const Section: React.FC<{
                 <Image src={image} alt={title} fill className="object-cover" />
             </motion.div>
 
-            <div className={`absolute top-24 ${alignRight ? "right-24 items-end text-right" : "left-24"} flex flex-col gap-4 text-white max-w-[600px] text-shadow`}>
+            <div
+            className={`absolute ${
+                alignCenterLeft
+                ? "left-24 top-1/2 -translate-y-1/2"
+                : alignRight
+                ? "right-24 top-24 items-end text-right"
+                : "left-24 top-24"
+            } flex flex-col gap-4 text-white max-w-[600px] text-shadow`}
+            >
             <span className="uppercase text-xs tracking-widest">{tag}</span>
             <h1 className="text-5xl font-extrabold tracking-wide uppercase text-white drop-shadow-[0_0_10px_#695AD1] drop-shadow-[0_0_20px_#EB8A52] drop-shadow-[0_0_30px_#E94DBE]">
                 {title}
