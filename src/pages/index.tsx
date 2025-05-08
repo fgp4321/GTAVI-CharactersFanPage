@@ -40,10 +40,13 @@ export default function Home() {
         Una vida con Jason podría ser su oportunidad para salir adelante.`}
       />
       <Section 
-        image="/bg-charging.jpeg" 
-        tag="Charging" 
-        title="Long distances in lightning speed" 
-        description="Lorem ipsum dolor sit amet consectetur adipiscing elit lacinia per quis non mauris, massa fusce tempor condimentum dictumst scelerisque feugiat m"
+        image="/Cal_Hampton_03.jpg"
+        tag=""
+        title="Cal Hampton"
+        description={`¿Y si todo lo que dicen en Internet fuera verdad?\n
+          Cal, amigo de Jason y otro de los socios de Brian, se siente más seguro en casa, espiando las comunicaciones de la guardia costera con unas cervezas y unas cuantas pestañas privadas abiertas en el navegador.\n
+          Cal pertenece al estrato más bajo de América, y no le molesta. La paranoia ocasional es contagiosa, pero su amigo Jason apunta más alto.`}
+        alignRight={true}
       />
       <Section 
         image="/bg-connectivity.jpeg" 
