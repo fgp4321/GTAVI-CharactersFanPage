@@ -49,10 +49,13 @@ export default function Home() {
         alignRight={true}
       />
       <Section 
-        image="/bg-connectivity.jpeg" 
-        tag="Connectivity" 
-        title="Feel the world at your fingertips." 
-        description="Lorem ipsum dolor sit amet consectetur adipiscing elit lacinia per quis non mauris, massa fusce tempor condimentum dictumst scelerisque feugiat m"
+        image="/Boobie_Ike_03.jpg" 
+        tag="" 
+        title="Boobie Ike" 
+        description={`El Jack of Hearts te robará el corazón.\n
+        Boobie es una leyenda local de Vice City, y se comporta como tal. Es uno de los pocos que logró aprovechar el tiempo que pasó en la calle para crear un imperio legítimo compuesto por propiedades inmobiliarias, un club de striptease y un estudio de grabación. Boobie siempre sonríe, hasta que llega la hora de hablar de negocios.\n
+        Puede parecer que Boobie solo mira por sí mismo, pero lo que de verdad le importa es su colaboración con el joven aspirante a magnate musical Dre'Quan, al frente de Only Raw Records. Ahora solo les falta un éxito.\n`}
+        alignRight={true}
       />
       <Section 
         image="/bg-safety.jpeg" 
