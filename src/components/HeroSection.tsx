@@ -37,7 +37,7 @@ const HeroSection = () => {
       <div className="flex flex-col items-center gap-20 mt-24 z-20">
         <div className="flex flex-col items-center gap-8 text-white">
           <div className="text-7xl max-w-[20ch] text-center font-bold flex flex-col items-center gap-4">
-            <span className="text-[4rem]" style={{ fontFamily: "RageItalic" }}>Welcome to</span>
+            <span className="text-[4rem]" style={{ fontFamily: "RageItalic" }}>Welcome back</span>
             <img
               src="/vice-city_logo.png"
               alt="Vice City Logo"

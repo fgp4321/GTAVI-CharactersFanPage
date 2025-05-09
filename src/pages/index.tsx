@@ -66,6 +66,33 @@ export default function Home() {
         Ahora que ha fichado a Real Dimez, los días en que Dre'Quan contrataba artistas para el club de striptease de Boobie podrían estar contados, ya que ha puesto la mira en la escena de Vice City.\n`}
         alignCenterLeft
       />
+      <Section 
+        image="/Real_Dimez_04.jpg" 
+        tag="" 
+        title="Real Dimez" 
+        description={`Vídeos virales y temas pegadizos.\n
+        Bae-Luxe y Roxy, también conocidas como Real Dimez, son amigas desde el instituto, y cuentan con el ingenio suficiente para convertir sus visitas a los camellos del barrio en dinero contante y sonante gracias a temas de rap picantes y su constante presencia en las redes.\n
+        Su primer éxito junto al rapero local DWNPLY llevó a Real Dimez a lo más alto. Ahora, cinco años y un buen puñado de líos después, han firmado con el estudio Only Raw Records, y sueñan con volver a tener un golpe de suerte.\n`}
+        alignBottomRight
+      />
+      <Section 
+        image="/Raul_Bautista_03.jpg" 
+        tag="" 
+        title="Raul Bautista" 
+        description={`La experiencia es un grado.\n
+        Confianza, carisma e ingenio: Raul es un atracador de bancos con experiencia que siempre busca a gente con agallas, dispuesta a correr riesgos para obtener las mayores recompensas.\n
+        Raul se vuelve más temerario con cada golpe. Tarde o temprano, su equipo tendrá que redoblar la apuesta o retirarse de la partida.\n`}
+      />
+      <Section 
+        image="/Brian_Heder_01.jpg" 
+        tag="" 
+        title="Brian Heder" 
+        description={`No hay nada mejor que tomarse un mudslide al atardecer.\n
+        Brian es el típico narcotraficante de la época dorada del contrabando en los cayos. Sigue traficando desde su astillero junto a su tercera esposa, Lori, y lleva tanto tiempo en el negocio que ahora deja que otros se encarguen del trabajo sucio.\n
+        Parece un hippie playero de Leonida, pero ataca como un gran tiburón blanco.\n
+        Brian deja que Jason viva gratis en una de sus propiedades con la condición de que le ayude a extorsionar a los residentes y se pase de vez en cuando a tomar la sangría de Lori.\n`}
+        alignBottomRight
+      />
     </main>
   );
 }
